@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="rock-paper-blackjack"
-run/main_scene="uid://bhar3sia31nb0"
+run/main_scene="uid://dgwl2uele7h8w"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 

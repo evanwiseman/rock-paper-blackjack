@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CardData" load_steps=2 format=3 uid="uid://bar8qdnnrjvoj"]
+
+[ext_resource type="Script" uid="uid://o3cxqgy2hsjq" path="res://card_data.gd" id="1_oqgwy"]
+
+[resource]
+script = ExtResource("1_oqgwy")
+name = "Scissors"
+description = "This is a pair of scissors."
+metadata/_custom_type_script = "uid://o3cxqgy2hsjq"

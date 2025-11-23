@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://bhar3sia31nb0"]
+[gd_scene load_steps=8 format=3 uid="uid://bhar3sia31nb0"]
 
 [ext_resource type="Script" uid="uid://lxhyi678wjfv" path="res://card.gd" id="1_rjlel"]
 [ext_resource type="Script" uid="uid://o3cxqgy2hsjq" path="res://card_data.gd" id="3_q5obu"]
@@ -9,6 +9,12 @@ name = "Test"
 description = "Description"
 metadata/_custom_type_script = "uid://o3cxqgy2hsjq"
 
+[sub_resource type="Gradient" id="Gradient_rjlel"]
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_q5obu"]
+gradient = SubResource("Gradient_rjlel")
+fill_to = Vector2(0, 0)
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nxf5b"]
 size = Vector2(300, 450)
 
@@ -17,6 +23,7 @@ size = Vector2(300, 450)
 [node name="Card" type="Area2D"]
 script = ExtResource("1_rjlel")
 data = SubResource("Resource_q5obu")
+front_background = SubResource("GradientTexture2D_q5obu")
 metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

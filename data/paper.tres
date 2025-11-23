@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CardData" load_steps=2 format=3 uid="uid://bxhyngq68btso"]
+
+[ext_resource type="Script" uid="uid://o3cxqgy2hsjq" path="res://card_data.gd" id="1_lyrb1"]
+
+[resource]
+script = ExtResource("1_lyrb1")
+name = "Paper"
+description = "This is a sheet of paper."
+metadata/_custom_type_script = "uid://o3cxqgy2hsjq"
